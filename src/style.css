@@ -19,6 +19,11 @@ header img {
   width: 16rem;
   height: 5.4rem;
 }
+
+#page > div {
+  padding: 4rem 11.2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -31,6 +36,17 @@ header img {
   width: 50%;
 }
 
+main {
+  margin-top: 11.2rem;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+.headline {
+  max-width: 35rem;
+}
 img {
   width: 100%;
   object-fit: cover;
