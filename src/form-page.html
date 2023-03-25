@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Sign In</title>
 </head>
 
@@ -23,7 +26,7 @@
                 <form action="">
                     <div class="input-wrapper">
                         <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" required>
+                        <input id="email" type="email" name="email" placeholder="Digite o teu email" required>
                     </div>
 
                     <div class="input-wrapper">
@@ -32,7 +35,7 @@
                             <label for="password">Senha</label>
                             <a href="#">Esqueceu a senha?</a>
                         </div>
-                        <input id="password" type="password" name="password" required>
+                        <input id="password" type="password" name="password" placeholder="Digite a sua senha" required>
                         <img onclick="togglePassword()" src="/assets/eye-off.svg" alt="" class="eye">
                         <img onclick="togglePassword()" src="/assets/eye-on.svg" alt="" class="eye hide">
                     </div>
