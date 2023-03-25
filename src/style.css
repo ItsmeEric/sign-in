@@ -76,6 +76,20 @@ form {
   position: relative;
 }
 
+label {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.1rem
+    color: #1e293b;
+}
+
+input::placeholder {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+
+    color: #94a3b8;
+}
+
 form input {
   width: 100%;
 
