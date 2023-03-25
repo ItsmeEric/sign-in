@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+  }
+  
+
 header img {
   width: 16rem;
   height: 5.4rem;
@@ -47,6 +52,7 @@ header img {
 
 main {
   margin-top: 11.2rem;
+  max-width: 38.4rem;
 }
 
 .headline {
@@ -83,14 +89,26 @@ label {
     color: #1e293b;
 }
 
-input::placeholder {
+.label-wrapper {
+  justify-content: space-between;
+}
+
+.input-wrapper + .input-wrapper {
+    margin-top: 1.6rem;
+  }
+  
+
+.label-wrapper label + a {
+    font-weight: 600;
     font-size: 1.4rem;
     line-height: 2.1rem;
+}
 
+input::placeholder {
     color: #94a3b8;
 }
 
-form input {
+input {
   width: 100%;
 
   background: #ffffff;
@@ -99,14 +117,21 @@ form input {
 
   padding: 1.6rem 1.2rem;
   margin-top: 0.8rem;
+
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+
+  color: #1E293B;
 }
 
-form .input-wrapper + .input-wrapper {
-  margin-top: 1.6rem;
+input:focus,
+input:hover {
+    border: 0.1rem solid #7C3AED;
+    border-radius: 0.4rem;
+    outline: 0;
 }
-
-.label-wrapper {
-  justify-content: space-between;
+input:disabled {
+    opacity: 0.35;
 }
 
 ::ms-reveal {
@@ -118,7 +143,7 @@ form .input-wrapper + .input-wrapper {
   height: 2rem;
   position: absolute;
 
-  top: 52%;
+  top: 55%;
   right: 5%;
 }
 
@@ -154,4 +179,8 @@ form button:hover {
 img {
   width: 100%;
   object-fit: cover;
+}
+
+.create-account {
+    color: #475569;
 }
