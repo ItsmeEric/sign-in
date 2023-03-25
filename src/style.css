@@ -22,3 +22,12 @@ body {
 #page {
   height: 100vh;
 }
+
+#page > * {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
