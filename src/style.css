@@ -15,6 +15,10 @@ body {
   font-size: 1.6rem;
 }
 
+header img {
+  width: 16rem;
+  height: 5.4rem;
+}
 .flex {
   display: flex;
 }
