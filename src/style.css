@@ -15,6 +15,15 @@ body {
   font-size: 1.6rem;
 }
 
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
 header img {
   width: 16rem;
   height: 5.4rem;
@@ -71,6 +80,10 @@ form .input-wrapper + .input-wrapper {
   justify-content: space-between;
 }
 
+::ms-reveal {
+  display: none;
+}
+
 .eye {
   width: 2rem;
   height: 2rem;
@@ -85,8 +98,6 @@ form .input-wrapper + .input-wrapper {
 }
 
 form button {
-  all: unset;
-
   display: flex;
   justify-content: center;
   align-items: center;
