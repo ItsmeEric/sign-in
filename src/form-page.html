@@ -33,8 +33,8 @@
                             <a href="#">Esqueceu a senha?</a>
                         </div>
                         <input id="password" type="password" name="password" required>
-                        <img src="/assets/eye-on.svg" alt="" class="show-password">
-                        <img src="/assets/eye-off.svg" alt="" class="hide-password">
+                        <img onclick="togglePassword()" src="/assets/eye-off.svg" alt="" class="eye">
+                        <img onclick="togglePassword()" src="/assets/eye-on.svg" alt="" class="eye hide">
                     </div>
 
                     <button type="submit">Entrar</button>
@@ -48,6 +48,7 @@
         </div>
         <img src="/assets/bg.jpg" alt="" />
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
