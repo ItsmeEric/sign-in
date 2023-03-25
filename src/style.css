@@ -40,13 +40,41 @@ main {
   margin-top: 11.2rem;
 }
 
+.headline {
+  max-width: 35rem;
+}
+
 form {
   margin-top: 4rem;
 }
 
-.headline {
-  max-width: 35rem;
+form button {
+  all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+
+  background-color: #7c3aed;
+  border-radius: 0.4rem;
+
+  width: 100%;
+  margin-block: 3.2rem; //Puts margin-top and margin-bottom
+
+  font-weight: bold;
+  color: #ffffff;
 }
+
+form button:focus {
+  outline: 2px solid black;
+  border-radius: 0.4rem;
+}
+
+form button:hover {
+  background: #9f67ff;
+}
+
 img {
   width: 100%;
   object-fit: cover;
