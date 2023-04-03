@@ -26,6 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript e DOM
+- Git e Github
 - Figma
 
 ## 📚 Um pouco do que vimos nesse desafio
