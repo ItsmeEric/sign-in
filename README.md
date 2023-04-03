@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <img alt="License" src="https://i.ibb.co/RNSLPMy/preview.jpg">
 </p>
 
 <br>
